@@ -1,5 +1,7 @@
 # gate-runner
 
+[![CI](https://github.com/aidless/gate-runner/actions/workflows/ci.yml/badge.svg)](https://github.com/aidless/gate-runner/actions/workflows/ci.yml)
+
 把用户已有的判据思想收进一个统一产品壳：给一个候选产物目录 + 一组规则，跑出逐条 PASS/FAIL、总体退出码和会变红的自测反证，能直接接 CI。纯 Python 标准库、无依赖、Python ≥3.9。
 
 ## 一句话定位
