@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gate-runner"
+version = "0.1.0"
+description = "把判据变成有退出码的机器闸：候选产物 + 规则集 → PASS/FAIL + 退出码 + 非空性反证"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Liu Zewen / aidless" }]
+keywords = ["gate", "verification", "ci", "exit-code", "judgment"]
+dependencies = []
+
+[project.scripts]
+gate-runner = "gate_runner.cli:main"
+
+[tool.setuptools]
+packages = ["gate_runner"]

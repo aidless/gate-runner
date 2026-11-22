@@ -1,0 +1,25 @@
+{
+  "name": "example spec",
+  "description": "四类内置判据组合：必须含串 / 禁止串 / 最少行数 / JSON 合法",
+  "rules": [
+    {
+      "type": "must_contain",
+      "file": "hello.md",
+      "value": "gate-runner 示例产物"
+    },
+    {
+      "type": "must_not_contain",
+      "file": "hello.md",
+      "value": "FORBIDDEN"
+    },
+    {
+      "type": "min_lines",
+      "file": "hello.md",
+      "minimum": 2
+    },
+    {
+      "type": "json_valid",
+      "file": "meta.json"
+    }
+  ]
+}
