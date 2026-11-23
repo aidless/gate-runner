@@ -105,6 +105,6 @@ gate-runner 是"任意产物过规则"的通用壳，另外三仓分别管"判�
 | [gate-runner](https://github.com/aidless/gate-runner) | 任意产物过不过一组规则？ | 四类规则 + 正控/三注入违规 selftest |
 | [judge-pipeline](https://github.com/aidless/judge-pipeline) | 一份判读稿结构合格吗？ | 五组断言 + tier63 真样例 A2/B6/C2 |
 
-顶层汇总：[JUDGMENT_TOOLKIT.md](https://github.com/aidless/aidless/blob/main/JUDGMENT_TOOLKIT.md)。四仓均 v0.1.0、CI 全绿。
+顶层汇总：[JUDGMENT_TOOLKIT.md](https://github.com/aidless/aidless/blob/master/JUDGMENT_TOOLKIT.md)。四仓均 v0.1.0、CI 全绿。
 
 MIT License © Liu Zewen / aidless.
